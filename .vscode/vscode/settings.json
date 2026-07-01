@@ -1,0 +1,9 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar"
+    ],
+    "code-runner.executorMap": {
+        "java": "cd $workspaceRoot && build.bat"
+    },
+    "code-runner.runInTerminal": true
+}
