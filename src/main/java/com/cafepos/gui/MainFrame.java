@@ -3,11 +3,10 @@ package com.cafepos.gui;
 import com.cafepos.config.ConnectionPool;
 import com.cafepos.util.AppContext;
 import com.cafepos.util.UITheme;
-
-import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 import java.sql.SQLException;
+import javax.swing.*;
 
 /**
  * Root application window. Controls navigation between Login,
@@ -114,7 +113,7 @@ public class MainFrame extends JFrame {
         statusLabel.setForeground(UITheme.LATTE);
         statusBar.add(statusLabel, BorderLayout.WEST);
 
-        JLabel versionLabel = new JLabel("Brew & Co. POS v1.0");
+        JLabel versionLabel = new JLabel("E4 Cafe. POS v1.0");
         versionLabel.setFont(UITheme.FONT_SMALL);
         versionLabel.setForeground(UITheme.MOCHA);
         statusBar.add(versionLabel, BorderLayout.EAST);
