@@ -4,10 +4,9 @@ import com.cafepos.dao.UserDAO;
 import com.cafepos.model.User;
 import com.cafepos.util.AppContext;
 import com.cafepos.util.UITheme;
-
-import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
+import javax.swing.*;
 
 /**
  * Full-screen login form with café branding.
@@ -41,7 +40,7 @@ public class LoginPanel extends JPanel {
         cupEmoji.setFont(new Font("Segoe UI Emoji", Font.PLAIN, 72));
         cupEmoji.setAlignmentX(Component.CENTER_ALIGNMENT);
 
-        JLabel titleLabel = new JLabel("BREW & CO.");
+        JLabel titleLabel = new JLabel("E4 Cafe");
         titleLabel.setFont(new Font("SansSerif", Font.BOLD, 36));
         titleLabel.setForeground(UITheme.GOLD);
         titleLabel.setAlignmentX(Component.CENTER_ALIGNMENT);
