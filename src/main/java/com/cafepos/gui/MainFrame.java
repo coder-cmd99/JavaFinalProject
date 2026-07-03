@@ -42,7 +42,7 @@ public class MainFrame extends JFrame {
     private JLabel statusLabel;
 
     public MainFrame() {
-        super("Brew & Co. — POS System");
+        super("Cafe E4. — POS System");
         setDefaultCloseOperation(DO_NOTHING_ON_CLOSE);
         setMinimumSize(new Dimension(1100, 720));
         setPreferredSize(new Dimension(1280, 800));
@@ -139,7 +139,7 @@ public class MainFrame extends JFrame {
 
         JLabel cup = new JLabel("☕", SwingConstants.CENTER);
         cup.setFont(new Font("Segoe UI Emoji", Font.PLAIN, 36));
-        JLabel brandName = new JLabel("Brew & Co.", SwingConstants.CENTER);
+        JLabel brandName = new JLabel("Cafe E4", SwingConstants.CENTER);
         brandName.setFont(new Font("SansSerif", Font.BOLD, 16));
         brandName.setForeground(UITheme.GOLD);
         JLabel posLabel = new JLabel("Point of Sale", SwingConstants.CENTER);
